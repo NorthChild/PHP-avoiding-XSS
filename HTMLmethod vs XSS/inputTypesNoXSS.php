@@ -26,7 +26,7 @@
 <br>
 
 <pre>
-  <!-- down here i'm just using different ways to show the data, it was just a way for me to visualise the data -->
+  <!-- down here i'm just using different ways to show the data, it was just a way for me to visualise it -->
   $_POST:
 
   <?= 'User input: ' . $attempt ?>
