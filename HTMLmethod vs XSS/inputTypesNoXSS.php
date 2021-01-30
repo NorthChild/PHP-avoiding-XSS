@@ -14,9 +14,9 @@
    <p>Guessing Game</p>
    <p>Input a number: <br>
      
-    <! wrapping the variable $attempt with the method will convert special characters preventing cross-site scripting ->
+    <!-- wrapping the variable $attempt with the method will convert special characters preventing cross-site scripting -->
      <input type="text" name="inputGuess" value="<?= htmlentities($attempt)  ?>"/></p>
-    // wrapping the variable $attempt with the method will convert special characters preventing cross-site scripting
+    <!-- wrapping the variable $attempt with the method will convert special characters preventing cross-site scripting -->
    
      <input type="submit">
  </form>
@@ -26,7 +26,7 @@
 <br>
 
 <pre>
-
+  <!-- down here i'm just using different ways to show the data, it was just a way for me to visualise the data -->
   $_POST:
 
   <?= 'User input: ' . $attempt ?>
