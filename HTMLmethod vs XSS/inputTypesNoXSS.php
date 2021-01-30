@@ -14,7 +14,7 @@
    <p>Guessing Game</p>
    <p>Input a number: <br>
      
-    // wrapping the variable $attempt with the method will convert special characters preventing cross-site scripting
+    <! wrapping the variable $attempt with the method will convert special characters preventing cross-site scripting ->
      <input type="text" name="inputGuess" value="<?= htmlentities($attempt)  ?>"/></p>
     // wrapping the variable $attempt with the method will convert special characters preventing cross-site scripting
    
